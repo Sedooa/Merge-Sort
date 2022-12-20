@@ -1,23 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32014.148
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Merge Sort", "Merge Sort\Merge Sort.pyproj", "{9396E8D0-F572-4936-8BBB-97E3921A9A77}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9396E8D0-F572-4936-8BBB-97E3921A9A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9396E8D0-F572-4936-8BBB-97E3921A9A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E663EEE0-B582-402F-9527-52B5BF699693}
-	EndGlobalSection
-EndGlobal
+(16,21,11,8,12,22)
+Merge Sort:
+
+    (16,21,11)                 (8,12,22)
+    (16,21)   (11)               (8,12)  (22)
+    (16) (21) (11)                (8) (12) (22)
+    (16) (11,21)                   (8) (12,22)
+    (11,16,21)                      (8,12,22)
+               (8,11,12,16,21,22)
+
+Big-o Notation:
+  
+    O(nlogn)
